@@ -92,7 +92,7 @@ pipeline {
                 allowMissing: true,
                 alwaysLinkToLastBuild: true,
                 keepAll: true,
-                reportDir: 'report',
+                reportDir: 'reports/jmeter-report',
                 reportFiles: 'index.html',
                 reportName: 'JMeter Performance Report'
             ])
