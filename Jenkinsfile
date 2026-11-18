@@ -87,6 +87,7 @@ pipeline {
     post {
         always {
             archiveArtifacts artifacts: 'results/results.jtl', allowEmptyArchive: true
+            archiveArtifacts artifacts: 'reports/jmeter-report/**', allowEmptyArchive: true
 
             publishHTML(target: [
                 allowMissing: true,
